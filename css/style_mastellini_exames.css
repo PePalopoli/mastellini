@@ -1,0 +1,846 @@
+    
+
+/* TODOS EXAMES */
+
+.todos-exames{
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.titulo-todos-exames h2{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 108.333% */
+
+}
+
+.secao-exames-exibicao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.subtitulo-todos-exames p{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.exames-exibicao-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    padding-right: 3%;
+}
+
+.cada-exame-box{    
+    padding: 16px 24px;    
+    gap: 35px;
+    flex-shrink: 0;    
+    border-radius: 12px;
+    background: #F3F3F3;
+    max-width: 98%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.posicao-cada-exame{
+    
+}
+
+.cada-exame-box p {    
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+.cada-exame-box a{
+    text-decoration: none;
+}
+
+.div-box-descricao-posicao{
+    
+}
+
+.div-box-descricao-posicao .box-descricao-exames{
+    border-radius: 12px;
+    background: #13718A;
+    max-width: 95%;
+    display: flex;    
+    flex-wrap: wrap;
+    padding: 15%;
+
+}
+
+.div-descricao-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.div-subdescricao-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div-telefone-descricao-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.div-botao-descricao-exames{
+    display: inline-flex;
+    padding: 10px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 12px;
+    background: #00CBEC;
+}
+
+.div-botao-descricao-exames a{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+/* INTERNA EXAMES */
+
+.titulo-todos-exames{
+    border-radius: 12px;
+    background: #13718A;
+}
+.titulo-todos-exames h2{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 162.5% */
+    text-transform: uppercase;
+}
+
+.interna-exames{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FFF;
+}
+
+.titulo-todos-exames {
+    border-radius: 12px;
+    background: #13718A;
+    padding: 0% 5%;
+    height: 70px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 5%;
+}
+
+.titulo-todos-exames h2{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 162.5% */
+    text-transform: uppercase;
+}
+
+.titulo-orientacoes p{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 144.444% */
+}
+
+.titulo-orientacoes{
+    min-width: 100%;
+}
+
+.titulo-orientacoes p::after {
+    content: "";
+    display: block;
+    width: 77%;
+    height: 1px;
+    background: #CCC; 
+    margin-top: 30px;
+    float: right;
+    
+}
+
+.secao-exames-interna-exibicao{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conteudo-orientacoes p{
+    color: #565656;
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 34px */
+}
+
+.conteudo-orientacoes{
+    min-width: 100%;
+}
+
+.conteudo-orientacoes p{
+color: #565656;
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 34px */
+text-align: justify;
+}
+
+.conteudo-orientacoes ul li{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 34px */
+    }
+
+.conteudo-orientacoes p b{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-box-descricao-posicao .box-descricao-interna-exames{
+    border-radius: 12px;
+    background: #13718A;
+    max-width: 95%;
+    display: flex;    
+    flex-wrap: wrap;
+    padding: 15%;
+    margin-top: 10%;
+
+}
+
+.div-descricao-interna-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.div-subdescricao-interna-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div-telefone-descricao-interna-exames p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.div-botao-descricao-interna-exames{
+    display: inline-flex;
+    padding: 10px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 12px;
+    background: #00CBEC;
+}
+
+.div-botao-descricao-interna-exames a{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* CONVENIOS */
+.todos-convenios{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FFF;
+}
+
+.titulo-todos-convenios h2{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 108.333% */
+
+}
+
+.subtitulo-todos-convenios p{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lista-convenios{
+    display: flex;    
+    flex-wrap: wrap;
+}
+.cada-convenio-tamanho{
+    
+}
+
+.cada-convenios{
+    border-radius: 19px;
+    border: 2px solid #13718A;
+    background: #FFF;
+    max-width: 95%;
+    height: 225px;
+    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TODA UNIDADES */
+.interna-unidades{
+    background-color: #FFF;
+}
+
+.interna-unidades .box-unidade {    
+    background: #F3F3F3;
+    
+}
+
+.interna-unidades .cada-unidade{
+    margin-bottom: 3%;
+}
+
+
+
+.lista-unidades-interna {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-ligar-unidade a {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+  
+  .lista-unidades-interna .slick-dots {
+    position: absolute !important;
+    bottom: -60px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 15% !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center;
+  }
+  
+  .lista-unidades-interna .slick-dots li button {  
+    background-color: #00CBEC;
+    
+  }
+  
+  .lista-unidades-interna  .slick-dots li.slick-active button:before {
+    opacity: 1.75;
+    color: #fff;
+    font-size: 49px;
+  }
+
+  .nossas-unidades-subtitulo P{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* QUEM SOMOS */
+
+  .section-quem-somos{
+    background-color: #FFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .div-quem-somos-titulos h2{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 108.333% */
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .div-imagem-quem-somos-certificado {
+    text-align: center;
+  }
+
+  .bloco-conteudo-quem-somos{
+    padding-top: 2%;
+  }
+
+  .bloco-conteudo-quem-somos p{
+    color: #595959;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .bloco-conteudo-quem-somos p b{
+    color: #595959;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .bloco-conteudo-quem-somos h2{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .div-imagem-quem-somos-right{
+    border-radius: 22px;
+    text-align: right;
+  }
+
+  .div-imagem-quem-somos-left{
+    border-radius: 22px;
+    text-align: left;
+  }
+
+  .bloco1-quem-somos{
+    border-bottom: 1px solid #00CBEC;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+  }
+
+  .baloes-quem-somos {
+    border-radius: 18px;
+    background: #13718A;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+
+  .bloco-titulo-balao h2{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 108.333% */
+  }
+
+  .bloco-conteudo-balao p{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+
+  .bloco-imagem-balao{
+    text-align: center;
+  }
+
+  .bloco-certificado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3%;
+    flex-wrap: wrap;
+  }
+  .bloco-conteudo-certificado p{
+    color: #595959;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .section-quem-somos2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #F3F3F3;
+  }
+
+  .titulo-compromissos{
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-section2-quem-somos h2{
+    color: #13718A;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 108.333% */
+    text-align: center;
+  }
+
+  .titulo-section2-quem-somos h2 b{
+    color: #13718A;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 108.333% */
+  }
+
+  .lista-compromissos-quem-somos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+  }
+
+  .conteudo-cada-compromisso{
+    max-width: 95%;
+    border-radius: 14px;
+    background: #FFF;
+    height: 240px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conteudo-cada-compromisso p{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .conteudo-cada-compromisso p b{
+    color: #13718A;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .lista-compromissos-valores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .titulo-valor h2 {
+    color: #13718A;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 15%;
+}
+
+  .conteudo-valor p{
+    color: #565656;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .cabecalho-valor{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+    
+  }
+  .conteudo-cada-valor {
+    max-width: 95%;
+    margin-bottom: 5%;
+    border-radius: 16px;
+    border: 2px solid #13718A;
+    min-height: 240px;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+  .cada-valor-quem-somos{
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+  /* TODOS EXAMES */
+    .div-box-descricao-posicao .box-descricao-exames {    
+        max-width: 100%;    
+    }
+    .titulo-todos-exames h2 {        
+        color: #13718A;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+    }
+    .subtitulo-todos-exames p {
+        color: #565656;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .cada-exame-box p {
+        color: #13718A;
+        font-family: "DM Sans";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* INTERNA EXAMES */
+    .cabecalho-interna-exames .titulo-todos-exames h2 {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        text-transform: uppercase;
+    }
+    .titulo-orientacoes p::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #CCC;
+        margin-top: 0px;
+        float: inherit;
+    }
+    .conteudo-orientacoes p {
+        color: #565656;
+        font-family: "DM Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        text-align: justify;
+    }
+
+    .div-unidades-interna-exames .lista-unidades .slick-dots {
+         position: relative !important;
+        
+        
+    }
+
+    /* CONVENIOS */
+    .cada-convenios{        
+        height: 95px;        
+    }
+    .cada-img-convenio{
+        max-width: 70%;
+    }
+
+    /* NTERNA UNIDADES */
+    .lista-unidades-interna .slick-dots {  
+        bottom: -30px !important;  
+    }
+    .interna-unidades .imagem-unidade{
+        display: none;
+    }
+
+    /* QUEM SOMOS */
+
+    .titulo-section2-quem-somos h2 {
+        color: #13718A;
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .titulo-section2-quem-somos h2 b{
+        color: #13718A;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .conteudo-cada-compromisso {        
+        height: 140px;
+        margin-bottom: 5%;
+        
+    }
+
+    .bloco-conteudo-quem-somos h2 {
+        color: #13718A;
+        font-family: "DM Sans";
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .bloco-titulo-balao h2 {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .bloco-conteudo-balao p {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 5%;
+    }
+
+    .baloes-quem-somos {        
+        padding: 10%;        
+    }
+
+
+    
+
+    
+    
+
+}
